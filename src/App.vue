@@ -1,32 +1,28 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <!-- Since Vuetify is installed, the entire content of the application must be wrapped inside the v-app compoenent. -->
+  <v-app class="red">
+    <!-- Use the Navigation component so that it appears across all pages -->
+    <Navigation />
+
+    <!-- Since vuetify is installed, our routes will work by simply wrapping the router-view component inside the v-main component -->
+
+    <v-main class="grey lighten-4"> 
+      <router-view></router-view>
+    </v-main>
+  </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Navigation from "@/components/Navigation"
+export default {
+  name: 'App',
 
-#nav {
-  padding: 30px;
+  components: {
+   Navigation
+  },
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+  data: () => ({
+    //
+  }),
+};
+</script>
