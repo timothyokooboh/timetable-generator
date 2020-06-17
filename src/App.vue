@@ -26,3 +26,24 @@ export default {
   }),
 };
 </script>
+
+<style>
+  :root {
+  --primary-color:#7c47ec;
+  --secondary-color:#9767e7;
+  --lavender: #e9dbf6;
+  --blue-violet:#6b37d8;
+  }
+
+  .v-main__wrap {
+    background-color: var(--secondary-color);
+  }
+</style>
+
+
+color schemes
+
+
+
+
+#A482df
