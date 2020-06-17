@@ -2,7 +2,7 @@
 <!-- This is the navigation component -->
     <div>
         <!-- The app prop makes the navigation bar to be fixed -->
-        <v-app-bar app color="#fff">
+        <v-app-bar app flat color="#fff">
 
             <v-app-bar-nav-icon @click = "drawer =! drawer" class="hidden-sm-and-up"></v-app-bar-nav-icon>
 
