@@ -16,13 +16,13 @@
 
             <v-spacer></v-spacer>
 
-            <router-link to="/register" active-class="active">
+            <router-link to="/" active-class="active" exact>
                 <a>
                     <v-btn text color="#7147B6" class="hidden-xs-only"> Home </v-btn>
                 </a>
             </router-link>
 
-            <router-link to="/register" active-class="active">
+            <router-link to="/about" active-class="active">
                 <a>
                     <v-btn text color="#7147B6" class="hidden-xs-only"> About </v-btn>
                 </a>

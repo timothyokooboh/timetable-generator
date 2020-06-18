@@ -1,10 +1,5 @@
 <template>
   <div class="home">
-    <!-- <h1>Welcome to the Landing page</h1> -->
-    <div>
-      <!-- <span>Don't worry, Folasayo will Vuetify you.</span> 
-      <v-icon>mdi-emoticon-cool-outline</v-icon> -->
-    </div>
     <div class="banner">
       <div>
        <h1> Never has timetable scheduling been easier </h1>
@@ -30,9 +25,9 @@ export default {
     width: 90%;
     margin: auto;
     margin-top:4em;
-    padding:2em;
-    border:2px solid white;
-    border-radius:1em;
+    padding: 2em;
+    border: 2px solid white;
+    border-radius: 1em;
     background-color: white;
   }
 
