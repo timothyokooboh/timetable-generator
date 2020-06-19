@@ -1,11 +1,23 @@
 <template>
   <div class="home">
+<<<<<<< HEAD
+=======
+    <!-- <h1>Welcome to the Landing page</h1> -->
+    <div>
+      <!-- <span>Don't worry, Folasayo will Vuetify you.</span> 
+      <v-icon>mdi-emoticon-cool-outline</v-icon> -->
+       <img src="public\manual.jpg"/> 
+    </div>
+>>>>>>> mybranch
     <div class="banner">
       <div>
-       <h1> Never has timetable scheduling been easier </h1>
+       <h1> Say Goodbye to manual scheduling </h1>
+       <p> </p>
+      
       </div>
       <div>
         <h1>Generate timetable with a button click </h1>
+        
       </div>
     </div>
   </div>
@@ -31,7 +43,7 @@ export default {
     background-color: white;
   }
 
-  .banner {
-    /* display: flex; */
-  }
+  /* .banner {
+    
+  } */
 </style>
