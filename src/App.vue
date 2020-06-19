@@ -36,6 +36,7 @@ export default {
   }
 
   .v-main__wrap {
-    background-color: var(--secondary-color);
+    background-color: var(--lavender);
   }
 </style>
+
