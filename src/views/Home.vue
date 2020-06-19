@@ -3,15 +3,15 @@
 
     <div class="banner">
       <div>
-       <h1> Say Goodbye to manual scheduling </h1>
-       <p> </p>
-      
+       <h1> Never has timetable scheduling been easier </h1>
       </div>
       <div>
         <h1>Generate timetable with a button click </h1>
-        
       </div>
     </div>
+
+    <!-- I created an images folder inside the public directory and placed the image there" -->
+    <img src="/images/pix.png">
    
   </div>
 </template>
@@ -36,7 +36,5 @@ export default {
     background-color: white;
   }
 
-  /* .banner {
-    
-  } */
+  
 </style>
