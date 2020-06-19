@@ -8,6 +8,7 @@
         <h1>Generate timetable with a button click </h1>
       </div>
     </div>
+   
   </div>
 </template>
 
