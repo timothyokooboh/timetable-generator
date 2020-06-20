@@ -8,7 +8,17 @@
                     <v-btn text x-large color="#7147B6"> Welcome Back</v-btn>
                 </v-card-title>
 
-                <v-form ref="form" @submit="submit" class="mx-5">
+                <v-form ref="form" class="mx-5">
+
+                    <!-- I hope to include social login to enable users sign up with their gmail account -->
+
+                    <v-btn color="#6b37d8" class="white--text" rounded width="100%">
+                        <v-icon left>mdi-google</v-icon>
+                        <span> Log In With Google </span>
+                    </v-btn>
+
+                    <v-btn text color="#7147B6" class="my-4 title" left> OR</v-btn>
+
                     <v-text-field
                         v-model = "email"
                         label = "Email Address"
@@ -34,7 +44,7 @@
                     <!-- The "rules" prop is an array of functions used for validating users input -->
                     </v-text-field>
 
-                    <v-btn type="submit"  :loading ="loadingContent" width = "100%" rounded color = "#6b37d8" class = "white--text mb-5">Log In</v-btn>
+                    <v-btn @click="submit"  :loading ="loadingContent" width = "100%" rounded color = "#6b37d8" class = "white--text mb-5">Log In</v-btn>
 
                     <div class="flex-container pb-5">
                         <div>

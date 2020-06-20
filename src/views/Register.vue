@@ -7,7 +7,7 @@
                     <v-btn text color="#7147B6" class="title"> CREATE ACCOUNT</v-btn>
                 </v-card-title>
 
-                <v-form ref="form" @submit="submit" class="mx-5 ">
+                <v-form ref="form" class="mx-5 ">
 
                 <!-- I hope to include social login to enable users sign up with their gmail account -->
 
@@ -24,8 +24,7 @@
                         type = "email"
                         append-icon = "mdi-email"
                         outlined
-                        shaped
-                        autocomplete                       
+                        shaped                       
                         :rules = "emailRules"
                     >
                     <!-- The "rules" prop is an array of functions used for validating users input -->
@@ -43,7 +42,7 @@
                     <!-- The "rules" prop is an array of functions used for validating users input -->
                     </v-text-field>
 
-                    <v-btn type="submit"  :loading ="loadingContent" width = "100%" rounded color = "#6b37d8" class = "white--text mb-5">Sign Up</v-btn>
+                    <v-btn @click="submit"  :loading ="loadingContent" width = "100%" rounded color = "#6b37d8" class = "white--text mb-5">Sign Up</v-btn>
                     <!-- The "loading" prop is used to add a button loader -->
 
                     <v-btn text small color="#7147B6" class="my-3">

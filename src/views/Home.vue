@@ -5,7 +5,7 @@
       <div class="manual-schedule">
        <h1> Say Goodbye to manual scheduling </h1>
        <p> </p>
-       <img src="/images/manual2.svg">
+       <img src="/images/manual2.png">
       </div>
       <div class="button-click">
         <h1>Generate timetable with a button click </h1>
