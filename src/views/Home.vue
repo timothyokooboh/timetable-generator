@@ -2,17 +2,21 @@
   <div class="home">
 
     <div class="banner">
-      <div>
+      <div class="manual-schedule">
        <h1> Say Goodbye to manual scheduling </h1>
        <p> </p>
+       <img src="/images/manual2.svg">
+      </div>
+      <div class="button-click">
+        <h1>Generate timetable with a button click </h1>
+        <v-btn type="submit" id="fancy-button">Generate TimeTable </v-btn>
       </div>
       <div>
-        <h1>Generate timetable with a button click </h1>
+        <h1>Scheduling has never been easier </h1>
+        <img src="/images/automatic.jpg">
       </div>
     </div>
 
-    <!-- I created an images folder inside the public directory and placed the image there" -->
-    <img src="/images/pix.png">
    
   </div>
 </template>
@@ -37,4 +41,11 @@ export default {
     background-color: white;
   }
 
+  #fancy-button {
+    background-color: var(--primary-color)
+  }
+
+  .button-click {
+    margin-bottom:7em;
+  }
 </style>
