@@ -12,7 +12,7 @@
 
                     <!-- I hope to include social login to enable users sign up with their gmail account -->
 
-                    <v-btn color="#6b37d8" class="white--text" rounded width="100%">
+                    <v-btn color="#6b37d8" class="white--text" width="100%">
                         <v-icon left>mdi-google</v-icon>
                         <span> Log In With Google </span>
                     </v-btn>
@@ -44,7 +44,7 @@
                     <!-- The "rules" prop is an array of functions used for validating users input -->
                     </v-text-field>
 
-                    <v-btn @click="submit"  :loading ="loadingContent" width = "100%" rounded color = "#6b37d8" class = "white--text mb-5">Log In</v-btn>
+                    <v-btn @click="submit"  :loading ="loadingContent" width = "100%" color = "#6b37d8" class = "white--text mb-5">Log In</v-btn>
 
                     <div class="flex-container pb-5">
                         <div>
