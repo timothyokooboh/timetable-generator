@@ -4,16 +4,12 @@
     <div class="banner">
       <div class="manual-schedule">
        <h1> Say Goodbye to manual scheduling </h1>
-       <p> </p>
-       <img src="/images/manual2.png">
+       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vitae sed quisquam molestiae, nesciunt, commodi dolorum mollitia velit expedita dolore ad praesentium cumque hic dolores? Qui, laudantium! Dicta, facilis odio! </p>
+       <v-btn type="submit" id="fancy-button">Generate TimeTable </v-btn>
       </div>
-      <div class="button-click">
-        <h1>Generate timetable with a button click </h1>
-        <v-btn type="submit" id="fancy-button">Generate TimeTable </v-btn>
-      </div>
+
       <div>
-        <h1>Scheduling has never been easier </h1>
-        <img src="/images/automatic.jpg">
+        <img src="/images/side-image.jpg" alt="" id="side-image">
       </div>
     </div>
 
@@ -42,10 +38,28 @@ export default {
   }
 
   #fancy-button {
-    background-color: var(--primary-color)
+    background-color: #009FA1;
   }
 
-  .button-click {
-    margin-bottom:7em;
+  #side-image {
+    height: 30em;
+    object-fit: cover;
+    width: 100%;
   }
+
+  /* Media Queries */
+@media (min-width:1024px) { /* big landscape tablets, laptops, and desktops */
+.banner {
+  display: flex;
+}
+
+.manual-schedule {
+  margin-top: 5em;
+  margin-left: 4em;
+}
+
+.side-image {
+  margin-left: 2em;
+}
+}
 </style>

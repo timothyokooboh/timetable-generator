@@ -38,5 +38,15 @@ export default {
   .v-main__wrap {
     background-color: var(--lavender);
   }
+
+  
+  .v-main__wrap{  
+  background: url(/images/schedule.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  image-rendering: -webkit-optimize-contrast;
+  }
 </style>
 
